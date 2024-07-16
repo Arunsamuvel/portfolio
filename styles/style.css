@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-weight: 400;
+  font-family: "Courier New", Courier, monospace;
+}
+
+header h1 {
+  font-weight: 700;
+}
+
+/* Other styles... */
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #090303;
+  padding: 1rem 0;
+  text-align: center;
+  /* background: url(../Assets/WhatsApp\ Image\ 2024-07-16\ at\ 11.03.11_7f40d4ec.jpg); */
+  background-repeat: no-repeat;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #140303;
+}
+
+section {
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 1rem;
+}
+
+form input,
+form textarea {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+form button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background: #3a2e2e;
+  color: #e8dddd;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #555;
+}
+.header {
+  background-color: rgb(92, 164, 190);
+  width: 100vw;
+  height: 100vh;
+  color: rgb(14, 2, 2);
+  padding: 20px;
+}
+.nav-bar li {
+  padding: 60px;
+  color: wheat;
+}
+img {
+  /* position: relative;
+  right: 400px; */
+  border: 1px solid rgb(0, 132, 255);
+  border-radius: 40px;
+}
+.profile {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #1b1818;
+  font-size: 36px;
+  text-align: start;
+}
+#about h2,
+p {
+  padding: 20px;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+#skills li,
+h2 {
+  padding: 10px;
+  text-align: center;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; */
+  transition: 4s;
+}
+.projects {
+  display: flex;
+  justify-content: space-between;
+  /* transition: 4s; */
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  /* width: 500px; */
+  /* border: 1px solid rgb(18, 4, 4); */
+}
+.box {
+  width: 400px;
+}
+li:hover {
+  cursor: pointer;
+  color: blueviolet;
+}
